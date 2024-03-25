@@ -1,0 +1,13 @@
+*.iml
+.gradle
+local.properties
+.idea/
+!.idea/inspectionProfiles/Project_Default.xml
+.DS_Store
+build/
+captures/
+.externalNativeBuild
+.cxx
+.project
+.settings/
+release/

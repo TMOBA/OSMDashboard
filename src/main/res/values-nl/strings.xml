@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_info_screen">OSM Dashboard
+\n voor OpenTracks</string>
+    <string name="copyright_osm">Kaartgegevens © OpenStreetMap contribuanten</string>
+    <string name="default_theme">Standaard thema</string>
+    <string name="map_info_menu">Over</string>
+    <string name="map_folder">Kaartenmap</string>
+    <string name="theme_folder">Thematische kaart</string>
+    <string name="usage_info">Gebruik <b><a href="https://f-droid.org/packages/de.dennisguse.opentracks">OpenTracks</a></b>, selecteer een track en klik op het kaartpictogram om de track op de kaart te tonen.</string>
+    <string name="osm_info">De standaardkaart wordt geleverd door <b><a href="https://openstreetmap.org">OpenStreetMap.org</a></b>. Luit je aan bij de community en help de kaart te verbeteren, zie <b><a href="https://www.openstreetmap.org/fixthemap">www.openstreetmap.org/fixthemap</a></b>.</string>
+    <string name="consider_offline_maps">Verweeg alsjeblieft om een offline kaart te downloaden om de belasting van de server te verminderen en je mobiele data-abonnement op te slaan. ommige offline kaarten zijn hier te vinden:</string>
+    <string name="map_theme_info"><b>Ommige kaarten hebben speciale thema\'s nodig om correct weer te geven!</b> Deze moeten worden gedownload en geconfigureerd.</string>
+    <string name="manual_offline_map_info">Manual downloaded offline maps or maps shared by other apps can be opened from your Android device. Select the directory in the menu <b>Map directory</b>.</string>
+    <string name="app_logo_description">App-logo</string>
+    <string name="online_map_consent">Er is geen offline kaart geconfigureerd. Ga akkoord met het gebruik van de online kaart van openstreetmap.org. Dit kan uw huidige locatie lekken. Zie https://operations.osmfoundation.org/policies/tiles/ voor het gebruik van tegels en het privacybeleid.</string>
+    <string name="map_online_consent_menu">Online kaart toestemming</string>
+    <string name="download_map">Kaart downloaden</string>
+    <string name="choose_map_to_download">Kies een kaart om te downloaden</string>
+    <string name="download_instruction">U bekijkt de inhoud van https://ftp-stud.hs-esslingen.de.</string>
+    <string name="download_success">Kaart succesvol gedownload</string>
+    <string name="download_failed">Het downloaden van de kaart is mislukt</string>
+    <string name="map_selection">Kaarten</string>
+    <string name="online_osm_mapnick">Online kaart OSM:Mapnik</string>
+    <string name="delete_map_question">Map \"%s\" verwijderen\?</string>
+    <string name="delete_map_error">Verwijdering van de kaart is mislukt</string>
+    <string name="theme_selection">Kaart themas</string>
+    <string name="delete_theme_question">Thema \"%s\" verwijderen\?</string>
+    <string name="delete_theme_error">Themaverwijdering mislukt</string>
+    <string name="overwrite_map_question">De kaart \"%s\" bestaat al! Opnieuw verwijderen en downloaden\?</string>
+    <string name="cancel_download_question">Huidige download annuleren\?</string>
+    <string name="error_loading_offline_map">Foutieve uitlezing geconfigureerd offline kaart</string>
+    <string name="track_smoothing_menu">Spoorafvlakking</string>
+    <string name="track_smoothing_info">Definieer de tolerantie in meters voor het spoorverzachtingsalgoritme. Voer 0 in om spoorverzachter uit te schakelen.
+\nChange treedt in werking na het opnieuw laden van het spoor.</string>
+    <string name="pip_mode">Beeld in beeldmodus</string>
+    <string name="map_mode_north_top">Kaart noordelijker gelegen</string>
+    <string name="map_mode_direction">Kaart bewegende richting</string>
+    <string name="menu_advanced">Gevorderde</string>
+    <string name="no_map_configured">U hebt nog geen offline kaart geconfigureerd.</string>
+    <string name="stroke_width_info">Definieer de slagbreedte van de sporen</string>
+    <string name="stroke_width_menu">Spoorbreedte</string>
+    <string name="download_theme">Thema downloaden</string>
+    <string name="download_theme_success">Thema met succes gedownload</string>
+    <string name="download_theme_failed">Thema downloaden mislukt</string>
+    <string name="overwrite_theme_question">Het thema \"%s\" bestaat al! Verwijderen en opnieuw downloaden\?</string>
+    <string name="no_download_uri_found">Geen URI om te downloaden gevonden</string>
+    <string name="startDownload">Begin met downloaden</string>
+    <string name="offline_map_info">Offline kaarten kunnen worden gedownload via het menu <b>Kaarten downloaden</b> of door de hierboven genoemde websites te bezoeken en op de downloadlinks te klikken. Sommige browsers (b.v. Firefox) vereisen een lange klik op de link en Open link in externe app en kies dan OSMDashboard.</string>
+    <string name="no_file_manager_found">Geen file manager gevonden</string>
+    <string name="error_reg_content_observer">Fout bij het registreren van OpenTracksContentObserver</string>
+    <string name="toggle_full_screen_mode">Schakel volledig scherm modus</string>
+    <string name="share">Deel</string>
+    <string name="unit_feet">ft</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_meter">m</string>
+    <string name="error_crash_title">%1$s gecrasht</string>
+    <string name="bug_report">Bug melden</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <string name="track_color">Track color</string>
+    <string name="pace_min_km">Pace in min/km</string>
+    <string name="error_reading_trackpoints">Error reading trackpoints: %s</string>
+    <string name="show_pause_markers">Show pause markers</string>
+    <string name="pace_min_mi">Pace in min/mi</string>
+    <string name="speed_mi_h">Speed in mi/h</string>
+    <string name="track_color_mode_uni">Unicolor</string>
+    <string name="map_settings">Map</string>
+    <string name="version_info"><b>Version:</b> %s - %s (%d)</string>
+    <string name="distance_km">Distance in km</string>
+    <string name="unit_mile_per_hour">mph</string>
+    <string name="elevation_feet">Elevation gain in feet</string>
+    <string name="speed_km_h">Speed in km/h</string>
+    <string name="configure_statistic">Configure statistic</string>
+    <string name="online_map_consent_info">Usage of the online map from openstreetmap.org might leak your current location. You need to give consent before usage.</string>
+    <string name="total_time">Total time</string>
+    <string name="unit_mile">mi</string>
+    <string name="debug_trackpoints_info">Trackpoints received: %1$d
+\nTrackpoints invalid: %2$d
+\nTrackpoints drawn: %3$d
+\nTrackpoints pause: %4$d
+\nSegments: %5$d
+\nProtocol version: %6$d</string>
+    <string name="elevation_meter">Elevation gain in meter</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="map_mode">Map orientation</string>
+    <string name="track_color_mode_by_speed">Color by speed</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="distance_mi">Distance in miles</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="action_settings">Settings</string>
+    <string name="general_settings_category_title">General</string>
+    <string name="category">Category</string>
+    <string name="track_color_mode_by_track">Color by track</string>
+    <string name="debug_trackpoints">Debug trackpoints</string>
+    <string name="moving_time">Moving time</string>
+    <string name="settings_night_mode_option_day">Day</string>
+    <string name="settings_night_mode_title">UI Theme</string>
+    <string name="settings_ui_dynamic_colors_title">Dynamic Colors</string>
+    <string name="settings_ui_dynamic_colors_summary">Use user-defined Dynamic Colors (Android 12+ only; requires a manual restart)</string>
+    <string name="settings_night_mode_option_night">Night</string>
+    <string name="settings_night_mode_option_system">System</string>
+</resources>

@@ -1,0 +1,2 @@
+- raise minSdk to 24, modernize code
+- update dependencies (e.g. mapsforge library)

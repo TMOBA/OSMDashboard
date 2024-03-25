@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="map_info_menu">පිළිබඳව</string>
+    <string name="download_success">සිතියම සාර්ථකව බාගත කර ඇත</string>
+    <string name="download_failed">සිතියම් බාගත කිරීම අසාර්ථක විය</string>
+    <string name="map_selection">සිතියම්</string>
+    <string name="online_osm_mapnick">මාර්ගගත සිතියම OSM: Mapnik</string>
+    <string name="delete_map_error">සිතියම් මකාදැමීම අසාර්ථක විය</string>
+    <string name="copyright_osm">සිතියම් දත්ත © OpenStreetMap දායකයින්</string>
+    <string name="default_theme">පෙරනිමි තේමාව</string>
+    <string name="map_folder">සිතියම් නාමාවලිය</string>
+    <string name="theme_folder">සිතියම් තේමා නාමාවලිය</string>
+    <string name="download_instruction">ඔබ https://ftp-stud.hs-esslingen.de හි අන්තර්ගතය නරඹමින් සිටී.</string>
+    <string name="track_smoothing_menu">සුමටනය ලුහුබඳින්න</string>
+    <string name="error_loading_offline_map">වින්‍යාසගත නොබැඳි සිතියම කියවීමේ දෝෂයකි</string>
+    <string name="cancel_download_question">වත්මන් බාගත කිරීම අවලංගු කරනවාද\?</string>
+    <string name="delete_theme_error">තේමාව මකාදැමීම අසාර්ථක විය</string>
+    <string name="menu_advanced">උසස්</string>
+    <string name="map_mode_direction">සිතියම චලනය වන දිශාව</string>
+    <string name="map_mode_north_top">ඉහළින් උතුර සිතියම</string>
+    <string name="stroke_width_menu">ආ roke ාත පළල ලුහුබඳින්න</string>
+    <string name="stroke_width_info">පීලි වල ආ roke ාත පළල නිර්වචනය කරන්න</string>
+    <string name="pip_mode">පින්තූර මාදිලියේ පින්තූරය</string>
+    <string name="choose_map_to_download">බාගත කිරීම සඳහා සිතියමක් තෝරන්න</string>
+    <string name="no_map_configured">ඔබට තවමත් නොබැඳි සිතියමක් වින්‍යාස කර නොමැත.</string>
+    <string name="track_smoothing_info">ධාවන සුමට ඇල්ගොරිතම සඳහා මීටර වලින් ඉවසීම නිර්වචනය කරන්න. ධාවන සුමටනය අක්‍රිය කිරීමට 0 ඇතුලත් කරන්න.
+\nධාවන පථය නැවත පූරණය කිරීමෙන් පසුව වෙනස් කිරීම බලාත්මක වේ.</string>
+    <string name="usage_info">භාවිත <b><a href="https://f-droid.org/packages/de.dennisguse.opentracks">OpenTracks</a></b> භාවිතා කරන්න, ධාවන පථයක් තෝරාගෙන ධාවන පථය පෙන්වීමට සිතියම් නිරූපකය ක්ලික් කරන්න සිතියමේ.</string>
+    <string name="osm_info">පෙරනිමි සිතියම සපයනු ලබන්නේ <b><a href="https://openstreetmap.org">OpenStreetMap.org</a></b> විසිනි. ප්‍රජාවට සම්බන්ධ වී සිතියම වැඩිදියුණු කිරීමට උදව් කරන්න, <b> <a href="https://www.openstreetmap.org/fixthemap">www.openstreetmap.org/fixthemap</a></b> බලන්න.</string>
+    <string name="consider_offline_maps">කරුණාකර සේවාදායක පැටවීම අඩු කිරීමට සහ ඔබගේ ජංගම දත්ත සැලැස්ම සුරැකීමට නොබැඳි සිතියමක් බාගත කිරීම සලකා බලන්න. සමහර නොබැඳි සිතියම් මෙහි සොයාගත හැකිය:</string>
+    <string name="map_theme_info"><b>සමහර සිතියම් නිවැරදිව ඉදිරිපත් කිරීමට විශේෂ තේමාවන් අවශ්‍ය වේ!</b> මේවා බාගත කර ඒ අනුව වින්‍යාසගත කළ යුතුය.</string>
+    <string name="manual_offline_map_info">Manual downloaded offline maps or maps shared by other apps can be opened from your Android device. Select the directory in the menu <b>Map directory</b>.</string>
+    <string name="app_logo_description">යෙදුම් ලාංඡනය</string>
+    <string name="map_online_consent_menu">මාර්ගගත සිතියම් කැමැත්ත</string>
+    <string name="download_map">සිතියම් බාගත කිරීම</string>
+    <string name="delete_map_question">සිතියම \"%s\" මකන්නද\?</string>
+    <string name="theme_selection">සිතියම් තේමාවන්</string>
+    <string name="delete_theme_question">\"%s\" තේමාව මකන්නද\?</string>
+    <string name="online_map_consent">නොබැඳි සිතියමක් වින්‍යාස කර නොමැත. Openstreetmap.org වෙතින් සබැඳි සිතියම භාවිතා කිරීමට කරුණාකර එකඟ වන්න. මෙය ඔබගේ වර්තමාන ස්ථානය කාන්දු විය හැක. උළු භාවිතය සහ රහස්‍යතා ප්‍රතිපත්තිය සඳහා https://operations.osmfoundation.org/policies/tiles/ බලන්න.</string>
+    <string name="overwrite_map_question">\"%s\" සිතියම දැනටමත් පවතී! මකා දමා නැවත බාගත කරන්න\?</string>
+    <string name="app_name_info_screen">OSM Dashboard
+\nසදහා OpenTracks</string>
+    <string name="download_theme">තේමාව බාගැනීම</string>
+    <string name="download_theme_success">තේමාව සාර්ථකව බාගැනුණි</string>
+    <string name="download_theme_failed">තේමාව බාගැනීම අසාර්ථක විය</string>
+    <string name="overwrite_theme_question">\"%s\" යන මාතෘකාව දැනටමත් පවතී! මකා නැවත බාගන්නද\?</string>
+    <string name="no_download_uri_found">බාගැනීමට යූආර්අයි නොමැත</string>
+    <string name="startDownload">බාගැනීම ආරම්භ කරන්න</string>
+    <string name="offline_map_info">නොබැඳි සිතියම් <b> සිතියම් බාගැනීම </b> මෙනු හරහා හෝ ඉහත සඳහන් වෙබ් අඩවි වලට පිවිස බාගැනීම් සම්බන්ධක ක්ලික් කිරීමෙන් බාගත හැකිය. සමහර බ්‍රව්සර් (උදා. ෆයර්ෆොක්ස්) සඳහා සම්බන්ධකය මත දිගු ක්ලික් කිරීමක් අවශ්‍ය වන අතර බාහිර යෙදුමේ සම්බන්ධකය විවෘත කර OSMDashboard තෝරා ගන්න.</string>
+    <string name="no_file_manager_found">කිසිදු ගොනුව කළමනාකරු සොයාගෙන ඇත</string>
+    <string name="error_reg_content_observer">දෝෂයක් මත ලියාපදිංචි OpenTracksContentObserver</string>
+    <string name="toggle_full_screen_mode">සම්පූර්ණ තිර මාදිලිය ටොගල් කරන්න</string>
+    <string name="share">බෙදාගන්න</string>
+    <string name="unit_feet">අඩි</string>
+    <string name="unit_kilometer">කි.මී</string>
+    <string name="unit_meter">එම්</string>
+    <string name="error_crash_title">%1$s බිඳ වැටිණි</string>
+    <string name="bug_report">දෝෂය වාර්තා කරන්න</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <string name="track_color">Track color</string>
+    <string name="pace_min_km">Pace in min/km</string>
+    <string name="error_reading_trackpoints">Error reading trackpoints: %s</string>
+    <string name="show_pause_markers">Show pause markers</string>
+    <string name="pace_min_mi">Pace in min/mi</string>
+    <string name="speed_mi_h">Speed in mi/h</string>
+    <string name="track_color_mode_uni">Unicolor</string>
+    <string name="map_settings">Map</string>
+    <string name="version_info"><b>Version:</b> %s - %s (%d)</string>
+    <string name="distance_km">Distance in km</string>
+    <string name="unit_mile_per_hour">mph</string>
+    <string name="elevation_feet">Elevation gain in feet</string>
+    <string name="speed_km_h">Speed in km/h</string>
+    <string name="configure_statistic">Configure statistic</string>
+    <string name="online_map_consent_info">Usage of the online map from openstreetmap.org might leak your current location. You need to give consent before usage.</string>
+    <string name="total_time">Total time</string>
+    <string name="unit_mile">mi</string>
+    <string name="debug_trackpoints_info">Trackpoints received: %1$d
+\nTrackpoints invalid: %2$d
+\nTrackpoints drawn: %3$d
+\nTrackpoints pause: %4$d
+\nSegments: %5$d
+\nProtocol version: %6$d</string>
+    <string name="elevation_meter">Elevation gain in meter</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="map_mode">Map orientation</string>
+    <string name="track_color_mode_by_speed">Color by speed</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="distance_mi">Distance in miles</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="action_settings">Settings</string>
+    <string name="general_settings_category_title">General</string>
+    <string name="category">Category</string>
+    <string name="track_color_mode_by_track">Color by track</string>
+    <string name="debug_trackpoints">Debug trackpoints</string>
+    <string name="moving_time">Moving time</string>
+    <string name="settings_night_mode_option_day">Day</string>
+    <string name="settings_night_mode_title">UI Theme</string>
+    <string name="settings_ui_dynamic_colors_title">Dynamic Colors</string>
+    <string name="settings_ui_dynamic_colors_summary">Use user-defined Dynamic Colors (Android 12+ only; requires a manual restart)</string>
+    <string name="settings_night_mode_option_night">Night</string>
+    <string name="settings_night_mode_option_system">System</string>
+</resources>

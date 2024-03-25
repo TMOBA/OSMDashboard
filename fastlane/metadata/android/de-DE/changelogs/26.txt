@@ -1,0 +1,7 @@
+- Übersetzungen aktualisiert
+- Abhängigkeiten aktualisiert
+- Ignoriere Wegpunkte vom Typ SENSORPOINT, da diese keine Koordinaten enthalten
+- Overdraw Factor erhöht, um leere Kartenteile zu verhindern
+- Korrigierter Zoomlevel, um den ganzen Track auf der Karte darzustellen
+- Behoben: Android 12 Absturz wegen zu schneller Sensorabfrage
+- Neu: Track als Bild teilen

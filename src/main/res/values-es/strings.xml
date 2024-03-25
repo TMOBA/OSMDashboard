@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_info_screen">OSM Dashboard
+\npara OpenTracks</string>
+    <string name="default_theme">Tema por defecto</string>
+    <string name="map_info_menu">Acerca de</string>
+    <string name="map_folder">Carpeta de mapas</string>
+    <string name="theme_folder">Carpeta de temas de mapa</string>
+    <string name="app_logo_description">Logo de la aplicación</string>
+    <string name="online_map_consent">No hay mapa configurado. Por favor, acepte usar el mapa online de openstreetmap.org. Esto puede determinar tu posición actual. Ver https://operations.osmfoundation.org/policies/tiles/ para los términos de uso y política de privacidad.</string>
+    <string name="map_online_consent_menu">Autorizar mapa online</string>
+    <string name="download_map">Mapa descargado</string>
+    <string name="choose_map_to_download">Elige un mapa para descargar</string>
+    <string name="download_instruction">Estás viendo contenido de https://ftp-stud.hs-esslingen.de.</string>
+    <string name="download_success">Mapa descargado correctamente</string>
+    <string name="download_failed">Falló la descarga del mapa</string>
+    <string name="map_selection">Mapas</string>
+    <string name="online_osm_mapnick">Mapa online OSM:Mapnik</string>
+    <string name="delete_map_question">¿Borrar mapa \"%s\"\?</string>
+    <string name="delete_map_error">Error al borrar mapa</string>
+    <string name="theme_selection">Temas de mapa</string>
+    <string name="delete_theme_question">¿Borrar tema \"%s\"\?</string>
+    <string name="delete_theme_error">Error al borrar el tema</string>
+    <string name="overwrite_map_question">¡El mapa \"%s\" ya existe! ¿Borrar y descargar de nuevo\?</string>
+    <string name="cancel_download_question">¿Cancelar descarga actual\?</string>
+    <string name="error_loading_offline_map">Error al leer el mapa offline configurado</string>
+    <string name="copyright_osm">Datos del mapa © contribuyentes de OpenStreetMap</string>
+    <string name="usage_info">Usa <b><a href="https://f-droid.org/packages/de.dennisguse.opentracks">OpenTracks</a></b>, selecciona una pista y haz clic en el icono del mapa para mostrar la pista sobre el mapa.</string>
+    <string name="osm_info">El mapa por defecto es proporcionado por <b><a href="https://openstreetmap.org">OpenStreetMap.org</a></b>. Únete a la comunidad y ayuda a mejorar el mapa, ver <b><a href="https://www.openstreetmap.org/fixthemap">www.openstreetmap.org/fixthemap</a></b>.</string>
+    <string name="consider_offline_maps">Por favor, considera descargar un mapa offline para no sobrecargar el servidor y ahorrar datos. Algunos mapas offline los puedes encontrar y descargar aquí:</string>
+    <string name="map_theme_info"><b>¡Algunos mapas necesitan temas especiales para que se puedan mostrar correctamente!</b> Estos necesitan ser descargados y configurados adecuadamente.</string>
+    <string name="manual_offline_map_info">Los mapas offline descargados manualmente o los mapas compartidos por otras aplicaciones se pueden abrir desde tu dispositivo Android. Selecciona el directorio en el menú <b>Carpeta de mapas</b>.</string>
+    <string name="track_smoothing_menu">Suavizado de pista</string>
+    <string name="track_smoothing_info">Define la tolerancia en metros para el algoritmo de suavizado de la pista. Ajústalo a 0 para desactivar el suavizado de la pista.</string>
+    <string name="pip_mode">Imagen en modo de imagen</string>
+    <string name="map_mode_north_top">Mapa norte en la parte superior</string>
+    <string name="menu_advanced">Avanzado</string>
+    <string name="stroke_width_info">Definir el ancho de trazo de las pistas</string>
+    <string name="stroke_width_menu">Anchura del movimiento de la pista</string>
+    <string name="map_mode_direction">Mapa de dirección de movimiento</string>
+    <string name="no_map_configured">Todavía no tiene ningún mapa sin conexión configurado.</string>
+    <string name="offline_map_info">Los mapas sin conexión pueden descargarse desde la aplicación. Vaya a los ajustes y elija <b>Descarga de mapas</b> o visitando los sitios web mencionados anteriormente y haciendo clic en los enlaces de descarga. Algunos navegadores (por ejemplo, Firefox) requieren un clic largo en el enlace y Abrir enlace en la aplicación externa y luego elegir OSMDashboard.</string>
+    <string name="download_theme">Descargar el tema</string>
+    <string name="download_theme_success">Tema descargado con éxito</string>
+    <string name="download_theme_failed">Fallo en la descarga del tema</string>
+    <string name="overwrite_theme_question">El tema \"%s\" ya existe. ¿Borrar y descargar de nuevo\?</string>
+    <string name="no_download_uri_found">No se ha encontrado ningún URI para descargar</string>
+    <string name="startDownload">Empezar a descargar</string>
+    <string name="no_file_manager_found">No se ha encontrado ningún gestor de archivos</string>
+    <string name="error_reg_content_observer">Napaka pri registraciji OpenTracksContentObserver</string>
+    <string name="toggle_full_screen_mode">Activar el modo de pantalla completa</string>
+    <string name="share">Compartir</string>
+    <string name="unit_feet">ft</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_meter">m</string>
+    <string name="error_crash_title">%1$s se estrelló</string>
+    <string name="bug_report">Informar de un error</string>
+    <string name="error_reading_trackpoints">Error al leer los puntos de la ruta: %s</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="unit_mile">mi</string>
+    <string name="unit_mile_per_hour">mph</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <string name="category">Categoría</string>
+    <string name="total_time">Tiempo Total</string>
+    <string name="moving_time">Tiempo en movimiento</string>
+    <string name="elevation_meter">Ascenso en metros</string>
+    <string name="speed_km_h">Velocidad en km/h</string>
+    <string name="pace_min_km">Ritmo en min/km</string>
+    <string name="configure_statistic">Configurar las estadísticas</string>
+    <string name="distance_km">Distancia en km</string>
+    <string name="speed_mi_h">Velocidad en mi/h</string>
+    <string name="pace_min_mi">Ritmo en min/mi</string>
+    <string name="elevation_feet">Desnivel en pies</string>
+    <string name="distance_mi">Distancia en millas</string>
+    <string name="version_info"><b>Versión:</b> %s - %s (%d)</string>
+    <string name="debug_trackpoints">Depurar los puntos de seguimiento</string>
+    <string name="debug_trackpoints_info">Trackpoints recibidos: %1$d
+\nTrackpoints inválidos: %2$d
+\nTrackpoints dibujados: %3$d
+\nTrackpoints en pausa: %4$d
+\nSegmentos: %5$d
+\nVersión del protocolo: %6$d</string>
+    <string name="track_color_mode_by_track">Color por pista</string>
+    <string name="track_color_mode_by_speed">Color por velocidad</string>
+    <string name="track_color">Color de la pista</string>
+    <string name="track_color_mode_uni">Un solo color</string>
+    <string name="show_pause_markers">Mostrar marcadores de haz una pausa</string>
+    <string name="map_settings">Mapa</string>
+    <string name="online_map_consent_info">El uso del mapa en línea de openstreetmap.org podría filtrar tu ubicación actual. Debes dar tu consentimiento antes de utilizarlo.</string>
+    <string name="map_mode">Orientación del mapa</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="general_settings_category_title">General</string>
+    <string name="settings_night_mode_option_day">Día</string>
+    <string name="settings_night_mode_title">Tema de la interfaz de usuario</string>
+    <string name="settings_ui_dynamic_colors_title">Colores dinámicos</string>
+    <string name="settings_ui_dynamic_colors_summary">Utilizar colores dinámicos definidos por el usuario (sólo Android 12+; requiere un reinicio manual).</string>
+    <string name="settings_night_mode_option_night">Noche</string>
+    <string name="settings_night_mode_option_system">Sistema</string>
+</resources>

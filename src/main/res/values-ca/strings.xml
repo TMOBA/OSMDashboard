@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_info_screen">OSM Dashboard
+\nper OpenTracks</string>
+    <string name="copyright_osm">Mapa de dades © OpenStreetMap col·laboradors</string>
+    <string name="map_info_menu">Sobre</string>
+    <string name="map_folder">Mapa directori</string>
+    <string name="theme_folder">Mapa tema directori</string>
+    <string name="consider_offline_maps">Si us plau, considereu descarregar un mapa en línia per a disminuir la càrrega del servidor i salvar el seu pla de dades mòbils. Alguns mapes fora de línia es pot trobar aquí:</string>
+    <string name="map_theme_info"><b>Alguns mapes requereixen especial els temes que es mostrin correctament!</b> Aquests han de ser descarregat i configurat en conseqüència.</string>
+    <string name="manual_offline_map_info">Manual de descarregar els mapes fora de línia o mapes compartits amb altres aplicacions es pot obrir des del teu dispositiu Android. Seleccioneu el directori en el menú <b>directori del Mapa</b>.</string>
+    <string name="app_logo_description">Aplicació del logotip</string>
+    <string name="map_online_consent_menu">Mapa en línia consentiment</string>
+    <string name="download_map">Descarregar mapa</string>
+    <string name="download_theme">Tema descarregar</string>
+    <string name="download_success">Mapa descarregat amb èxit</string>
+    <string name="download_failed">Mapa de descàrrega ha fallat</string>
+    <string name="download_theme_success">Tema descarregat amb èxit</string>
+    <string name="download_theme_failed">Tema descarregar fallat</string>
+    <string name="map_selection">Mapes</string>
+    <string name="online_osm_mapnick">Mapa en línia OSM:Mapnik</string>
+    <string name="delete_map_question">Esborrar del mapa \"%s\"\?</string>
+    <string name="theme_selection">Mapa temes</string>
+    <string name="delete_theme_question">Esborra tema \"%s\"\?</string>
+    <string name="delete_theme_error">El tema de la supressió fallat</string>
+    <string name="overwrite_map_question">El mapa \"%s\" ja existeix! Suprimir i descarregar de nou\?</string>
+    <string name="cancel_download_question">Cancel·la la baixada actual\?</string>
+    <string name="error_loading_offline_map">Error de lectura configurat els mapes fora de línia</string>
+    <string name="track_smoothing_menu">Pista suavitzat</string>
+    <string name="pip_mode">Imatge en mode d\'imatge</string>
+    <string name="map_mode_north_top">Mapa de nord a la part superior</string>
+    <string name="menu_advanced">Avançat</string>
+    <string name="stroke_width_info">Definir el contorn amplada de les pistes</string>
+    <string name="stroke_width_menu">Pista traç ample</string>
+    <string name="no_download_uri_found">No URI per a descarregar trobat</string>
+    <string name="no_file_manager_found">No hi ha gestor de fitxers trobats</string>
+    <string name="default_theme">Tema per defecte</string>
+    <string name="usage_info">Utilitzar <b><a href="https://f-droid.org/packages/de.dennisguse.opentracks">OpenTracks</a></b>, seleccioneu una pista i feu clic a la icona de mapa per a mostrar la pista del mapa.</string>
+    <string name="osm_info">Per defecte del mapa és proporcionada per <b><a href="https://openstreetmap.org">OpenStreetMap.org</a></b>. Formar part de la comunitat i ajudar a millorar el mapa, vegeu <b><a href="https://www.openstreetmap.org/fixthemap">www.openstreetmap.org/fixthemap</a></b>.</string>
+    <string name="offline_map_info">Els mapes fora de línia es pot descarregar a través del menú <b>Mapa de descàrrega</b> o per visitar els esmentats llocs web i feu clic en els enllaços de descàrrega. Alguns navegadors (per exemple, el Firefox) requereixen un llarg feu clic a l\'enllaç i Obrir enllaç extern aplicació i, a continuació seleccioneu OSMDashboard.</string>
+    <string name="online_map_consent">No hi ha cap mapa en línia configurat. Si us plau, accepta utilitzar el mapa en línia des de openstreetmap.org. Això podria fuita de la teva ubicació actual. Veure https://operations.osmfoundation.org/policies/tiles/ per a rajola d\'ús i política de privadesa.</string>
+    <string name="choose_map_to_download">Triar un mapa per a descarregar</string>
+    <string name="download_instruction">Esteu visualitzant el contingut de https://ftp-stud.hs-esslingen.de.</string>
+    <string name="delete_map_error">Mapa de la supressió fallat</string>
+    <string name="overwrite_theme_question">El tema \"%s\" ja existeix! Suprimir i descarregar de nou\?</string>
+    <string name="track_smoothing_info">Definir la tolerància en metres per la pista suavitzat algorisme. Introduïu 0 a desactivar el seguiment regulador.
+\nCanviar entra en vigor després de tornar a carregar la pista.</string>
+    <string name="map_mode_direction">Mapa del moviment de direcció</string>
+    <string name="no_map_configured">No teniu els mapes fora de línia encara no s\'ha configurat.</string>
+    <string name="startDownload">Inicia La Baixada</string>
+    <string name="error_reg_content_observer">Error en el registre OpenTracksContentObserver</string>
+    <string name="toggle_full_screen_mode">Canvia el mode de pantalla completa</string>
+    <string name="share">Compartir</string>
+    <string name="unit_feet">ft</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_meter">m</string>
+    <string name="error_crash_title">%1$s ha fallat</string>
+    <string name="bug_report">Informe d \' error</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <string name="track_color">Track color</string>
+    <string name="pace_min_km">Pace in min/km</string>
+    <string name="error_reading_trackpoints">Error reading trackpoints: %s</string>
+    <string name="show_pause_markers">Show pause markers</string>
+    <string name="pace_min_mi">Pace in min/mi</string>
+    <string name="speed_mi_h">Speed in mi/h</string>
+    <string name="track_color_mode_uni">Unicolor</string>
+    <string name="map_settings">Map</string>
+    <string name="version_info"><b>Version:</b> %s - %s (%d)</string>
+    <string name="distance_km">Distance in km</string>
+    <string name="unit_mile_per_hour">mph</string>
+    <string name="elevation_feet">Elevation gain in feet</string>
+    <string name="speed_km_h">Speed in km/h</string>
+    <string name="configure_statistic">Configure statistic</string>
+    <string name="online_map_consent_info">Usage of the online map from openstreetmap.org might leak your current location. You need to give consent before usage.</string>
+    <string name="total_time">Total time</string>
+    <string name="unit_mile">mi</string>
+    <string name="debug_trackpoints_info">Trackpoints received: %1$d
+\nTrackpoints invalid: %2$d
+\nTrackpoints drawn: %3$d
+\nTrackpoints pause: %4$d
+\nSegments: %5$d
+\nProtocol version: %6$d</string>
+    <string name="elevation_meter">Elevation gain in meter</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="map_mode">Map orientation</string>
+    <string name="track_color_mode_by_speed">Color by speed</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="distance_mi">Distance in miles</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="action_settings">Settings</string>
+    <string name="general_settings_category_title">General</string>
+    <string name="category">Category</string>
+    <string name="track_color_mode_by_track">Color by track</string>
+    <string name="debug_trackpoints">Debug trackpoints</string>
+    <string name="moving_time">Moving time</string>
+    <string name="settings_night_mode_option_day">Day</string>
+    <string name="settings_night_mode_title">UI Theme</string>
+    <string name="settings_ui_dynamic_colors_title">Dynamic Colors</string>
+    <string name="settings_ui_dynamic_colors_summary">Use user-defined Dynamic Colors (Android 12+ only; requires a manual restart)</string>
+    <string name="settings_night_mode_option_night">Night</string>
+    <string name="settings_night_mode_option_system">System</string>
+</resources>

@@ -1,0 +1,2 @@
+- Aktivität zum Melden von Abstürzen hinzugefügt
+- Update Ziel-SDK auf 32

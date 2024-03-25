@@ -1,0 +1,7 @@
+- Neu: UI Theme Auswahl
+- Neu: Unterstützung für dynamische Farben ab Android 12+
+- Neu: Migration zur Mapsforge VTM OpenGL vector-tile Rendering Bibliothek
+- Übersetzungen aktualisiert
+- Abhängigkeiten aktualisiert
+- Beschreibung zum Download von Offline Maps aktualisiert
+- Beschreibung zum Download von Offline Maps innerhalb der App in der Offline Variante entfernt

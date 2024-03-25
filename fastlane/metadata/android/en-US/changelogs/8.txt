@@ -1,0 +1,2 @@
+- several offline maps can be selected in parallel
+- compass stabilized

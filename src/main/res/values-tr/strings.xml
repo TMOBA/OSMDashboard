@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toggle_full_screen_mode">Tam ekran modunu değiştir</string>
+    <string name="copyright_osm">Harita verileri © OpenStreetMap katkıda bulunanlar</string>
+    <string name="default_theme">Varsayılan tema</string>
+    <string name="map_folder">Harita dizini</string>
+    <string name="theme_folder">Harita teması dizini</string>
+    <string name="map_theme_info"><b>Bazı haritaların doğru şekilde oluşturulabilmesi için özel temalar gerekir!</b> Bunların indirilmesi ve buna göre yapılandırılması gerekir.</string>
+    <string name="manual_offline_map_info">Manuel olarak indirilen çevrimdışı haritalar veya diğer uygulamalarla paylaşılan haritalar Android cihazınızdan açılabilir. <b>Harita dizini</b> menüsünde dizini seçin.</string>
+    <string name="app_logo_description">Uygulama logosu</string>
+    <string name="online_map_consent">Ayarlanmış çevrimdışı harita yok. Lütfen openstreetmap.org adresindeki çevrimiçi haritayı kullanmayı kabul edin. Bu, geçerli konumunuzu sızdırabilir. Kutucuk kullanımı ve gizlilik politikası için https://actions.osmfoundation.org/policies/tiles/ adresine bakın.</string>
+    <string name="download_map">Harita indir</string>
+    <string name="download_theme">Tema indir</string>
+    <string name="download_instruction">https://ftp-stud.hs-esslingen.de adresinin içeriğini görüntülüyorsunuz.</string>
+    <string name="download_failed">Harita indirilemedi</string>
+    <string name="download_theme_success">Tema başarıyla indirildi</string>
+    <string name="download_theme_failed">Tema indirilemedi</string>
+    <string name="online_osm_mapnick">Çevrimiçi harita OSM:Mapnik</string>
+    <string name="delete_map_question">\"%s\" haritası silinsin mi\?</string>
+    <string name="delete_map_error">Harita silinemedi</string>
+    <string name="delete_theme_question">\"%s\" teması silinsin mi\?</string>
+    <string name="delete_theme_error">Tema silinemedi</string>
+    <string name="overwrite_theme_question">\"%s\" teması zaten var! Silinip tekrar indirilsin mi\?</string>
+    <string name="cancel_download_question">Geçerli indirme iptal edilsin mi\?</string>
+    <string name="error_loading_offline_map">Ayarlanmış çevrimdışı harita okunurken hata oluştu</string>
+    <string name="track_smoothing_menu">Parça yumuşat</string>
+    <string name="track_smoothing_info">Parça yumuşatma algoritması için toleransı metre cinsinden tanımlayın. Parça yumuşatmayı devre dışı bırakmak için 0 girin.
+\nParça yeniden yüklendikten sonra değişiklik yürürlüğe girer.</string>
+    <string name="pip_mode">Resim içinde resim modu</string>
+    <string name="map_mode_direction">Haritanın hareket yönü</string>
+    <string name="menu_advanced">Gelişmiş</string>
+    <string name="no_map_configured">Henüz ayarlanmış bir çevrimdışı haritanız yok.</string>
+    <string name="stroke_width_menu">Kontur genişliğini takip et</string>
+    <string name="startDownload">İndirmeyi Başlat</string>
+    <string name="no_file_manager_found">Dosya yöneticisi bulunamadı</string>
+    <string name="error_reg_content_observer">OpenTracksContentObserver kaydında hata</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_feet">ft</string>
+    <string name="share">Paylaş</string>
+    <string name="app_name_info_screen">OpenTracks için
+\nOSM Panosu</string>
+    <string name="map_info_menu">Hakkında</string>
+    <string name="usage_info"><b><a href="https://f-droid.org/packages/de.dennisguse.opentracks">OpenTracks</a></b> kullanın, bir parça seçin ve parçayı göstermek için haritada harita simgesine tıklayın.</string>
+    <string name="osm_info">Varsayılan harita <b><a href="https://openstreetmap.org">OpenStreetMap.org</a></b> tarafından sağlanır. Topluluğa katılın ve haritayı geliştirmeye yardımcı olun, bakınız<b><a href="https://www.openstreetmap.org/fixthemap">www.openstreetmap.org/fixthemap</a></b>.</string>
+    <string name="consider_offline_maps">Sunucu yükünü azaltmak ve mobil veriden tasarruf etmek için lütfen çevrimdışı bir harita indirmeyi düşünün. Bazı çevrimdışı haritalar burada bulunabilir:</string>
+    <string name="offline_map_info">Çevrimdışı haritalar, <b>Harita indirme</b> menüsü aracılığıyla veya yukarıda belirtilen web sitelerini ziyaret edip indirme bağlantısı ile indirilebilir. Bazı tarayıcılar (ör. Firefox) bağlantıya uzun süre basılı tutmayı ve bağlantıyı harici uygulamada açmayı ve ardından OSMDashboard\'u seçmeyi gerektirir.</string>
+    <string name="map_online_consent_menu">Çevrimiçi harita onayı</string>
+    <string name="choose_map_to_download">İndirmek için bir harita seçin</string>
+    <string name="download_success">Harita başarıyla indirildi</string>
+    <string name="map_selection">Haritalar</string>
+    <string name="theme_selection">Harita temaları</string>
+    <string name="overwrite_map_question">\"%s\" haritası zaten var! Silinip tekrar indirilsin mi\?</string>
+    <string name="map_mode_north_top">Kuzey haritası üstte</string>
+    <string name="stroke_width_info">İzlerin kontur genişliğini tanımlayın</string>
+    <string name="no_download_uri_found">İndirilecek bağlantı bulunamadı</string>
+    <string name="error_crash_title">%1$s çöktü</string>
+    <string name="bug_report">Hata bildir</string>
+    <string name="unit_minute_per_mile">min/mi</string>
+    <string name="track_color">Track color</string>
+    <string name="pace_min_km">Pace in min/km</string>
+    <string name="error_reading_trackpoints">Error reading trackpoints: %s</string>
+    <string name="show_pause_markers">Show pause markers</string>
+    <string name="pace_min_mi">Pace in min/mi</string>
+    <string name="speed_mi_h">Speed in mi/h</string>
+    <string name="track_color_mode_uni">Unicolor</string>
+    <string name="map_settings">Map</string>
+    <string name="version_info"><b>Version:</b> %s - %s (%d)</string>
+    <string name="distance_km">Distance in km</string>
+    <string name="unit_mile_per_hour">mph</string>
+    <string name="elevation_feet">Elevation gain in feet</string>
+    <string name="speed_km_h">Speed in km/h</string>
+    <string name="configure_statistic">Configure statistic</string>
+    <string name="online_map_consent_info">Usage of the online map from openstreetmap.org might leak your current location. You need to give consent before usage.</string>
+    <string name="total_time">Total time</string>
+    <string name="unit_mile">mi</string>
+    <string name="debug_trackpoints_info">Trackpoints received: %1$d
+\nTrackpoints invalid: %2$d
+\nTrackpoints drawn: %3$d
+\nTrackpoints pause: %4$d
+\nSegments: %5$d
+\nProtocol version: %6$d</string>
+    <string name="elevation_meter">Elevation gain in meter</string>
+    <string name="unit_kilometer_per_hour">km/h</string>
+    <string name="map_mode">Map orientation</string>
+    <string name="track_color_mode_by_speed">Color by speed</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="distance_mi">Distance in miles</string>
+    <string name="unit_minute_per_kilometer">min/km</string>
+    <string name="action_settings">Settings</string>
+    <string name="general_settings_category_title">General</string>
+    <string name="category">Category</string>
+    <string name="track_color_mode_by_track">Color by track</string>
+    <string name="debug_trackpoints">Debug trackpoints</string>
+    <string name="moving_time">Moving time</string>
+    <string name="settings_night_mode_option_day">Day</string>
+    <string name="settings_night_mode_title">UI Theme</string>
+    <string name="settings_ui_dynamic_colors_title">Dynamic Colors</string>
+    <string name="settings_ui_dynamic_colors_summary">Use user-defined Dynamic Colors (Android 12+ only; requires a manual restart)</string>
+    <string name="settings_night_mode_option_night">Night</string>
+    <string name="settings_night_mode_option_system">System</string>
+</resources>

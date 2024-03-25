@@ -1,0 +1,10 @@
+- Aktualisierte Abhängigkeiten
+- Neue Übersetzung Sinhala
+- Neue Übersetzung Ukrainisch
+- Neue Übersetzung Rumänisch
+- Neue Übersetzung Slowenisch
+- Neue Übersetzung Slowakisch
+- Neue Übersetzung Lettisch
+- Unterstützung für Map-Theme-Dateien im .zip Format hinzugefügt
+- Unterstützung für Map- und Theme-Downloads von Mapsforge, Freizeitkarte Android und OpenAndroMaps über die Download Links der Webseiten
+- Absturz behoben, wenn kein Dateimanager verfügbar ist

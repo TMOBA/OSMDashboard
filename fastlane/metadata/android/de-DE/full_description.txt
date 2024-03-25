@@ -1,0 +1,18 @@
+Ein OpenStreetMap dashboard für OpenTracks: <a href="https://github.com/OpenTracksApp/OpenTracks">OpenTracks</a>.
+Darstellung des Tracks mit Start- und Endpunkt auf einer Karte von <a href="https://openstreetmap.org">OpenStreetMap</a> basierend auf der <a href="https://github.com/mapsforge/mapsforge">Mapsforge</a> Bibliothek.
+Als Standard ist eine Onlinekarte eingestellt, aber Offlinekarten im Mapsforge Format können genutzt werden. Damit ist kein Datenvolumen während der Aufzeichnung nötig.
+
+Die Standardkarte wird von <a href="https://openstreetmap.org">OpenStreetMap.org</a> zur Verfügung gestellt.
+Trete der Gemeinschaft bei und hilf sie zu verbessern, siehe <a href="https://www.openstreetmap.org/fixthemap">www.openstreetmap.org/fixthemap</a>
+
+Bitte nutze eine Offlinekarte, um die Serverlast und Dein mobiles Datenvolumen zu schonen.
+Einige Offlinekarten findest Du hier:
+- <a href="http://download.mapsforge.org/">Mapsforge</a>
+- <a href="https://www.freizeitkarte-osm.de/android/en/">Freizeitkarte Android</a>
+- <a href="https://www.openandromaps.org/en">OpenAndroMaps</a>
+
+Einge Karte benötigen ein spezielles Kartentheme, um korrekt dargestellt zu werden. Diese müssen ebenfalls heruntergeladen und konfiguriert werden.
+
+Offlinekarten können über das Menü "Karten herunterladen" oder über die Downloadlinks der o.a. Webseiten herunter geladen werden. Bei einige Browsern (z.B. Firefox) muss man lange auf den Link klicken und "Öffne Link in externer App" und OSMDashboard wählen.
+
+Manuell heruntergeladene Offlinekarten oder Karten, die mit anderen Apps geteilt werden, können von Deinem Androidgerät über das Menü "Karten-Verzeichnis" geöffnet werden.

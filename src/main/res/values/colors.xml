@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="opentracks">#FF6D00</color>
+    <color name="track_statistic">#FF000000</color> <!-- black -->
+</resources>
