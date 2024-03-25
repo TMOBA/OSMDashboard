@@ -3,7 +3,7 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -65,6 +65,6 @@
    style="fill:url(#SVGID_1_)"
    d="M 83.548,10.927 C 84.255,8.511 83.102,7.649 80.985,9.01 L 11.146,53.921 c -2.117,1.361 -1.795,2.628 0.714,2.815 L 40.865,58.9 c 2.51,0.188 5.291,2.267 6.18,4.621 l 10.282,27.208 c 0.89,2.354 2.195,2.304 2.902,-0.111 z"
    id="path7"
-   inkscape:connector-curvature="0" />
+   `inkscape:connector-curvature="0" />
 </g>
 </svg>
