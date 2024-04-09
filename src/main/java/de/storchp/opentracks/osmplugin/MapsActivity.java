@@ -17,15 +17,18 @@ import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.provider.Settings;
 import android.text.Html;
 import android.text.SpannableString;
 import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -719,8 +722,8 @@ public class MapsActivity extends BaseActivity implements ItemizedLayer.OnItemGe
         } else {
             binding.map.trackpointsDebugInfo.setText("");
         }
-    }
-
+    }//[lat=45.88163,lon=-74.160012]
+    private View infoWindow;
     private void setEndMarker(GeoPoint endPos) {
         synchronized (map.layers()) {
             if (endMarker != null) {
@@ -729,11 +732,88 @@ public class MapsActivity extends BaseActivity implements ItemizedLayer.OnItemGe
                 waypointsLayer.populate();
                 map.render();
             } else {
+
+
+                for(int i=0;i<5;i++){//45.88163, -74.160012
+                    if(i ==0){
+                        MarkerItem dumMarker = new MarkerItem(endPos.toString() + i, "", new GeoPoint(45.88153, -74.159912));
+                        var symNew = MapUtils.createMarkerSymbol(this, R.drawable.ic_marker_orange_pushpin_modern, false, MarkerSymbol.HotspotPlace.CENTER);
+                        dumMarker.setMarker(symNew);
+                        //dumMarker.setRotation(MapUtils.rotateWith(mapMode, movementDirection));
+                        waypointsLayer.addItem(dumMarker);
+                    }else if(i==1){
+                        MarkerItem dumMarker = new MarkerItem(endPos.toString() + i, "", new GeoPoint(45.88173, -74.160112));
+                        var symNew = MapUtils.createMarkerSymbol(this, R.drawable.ic_marker_orange_pushpin_modern, false, MarkerSymbol.HotspotPlace.CENTER);
+                        dumMarker.setMarker(symNew);
+                        //dumMarker.setRotation(MapUtils.rotateWith(mapMode, movementDirection));
+                        waypointsLayer.addItem(dumMarker);
+                    }else if(i==2){
+                        MarkerItem dumMarker = new MarkerItem(endPos.toString() + i, "", new GeoPoint(45.88163, -74.159912));
+                        var symNew = MapUtils.createMarkerSymbol(this, R.drawable.ic_marker_common_green, false, MarkerSymbol.HotspotPlace.CENTER);
+                        dumMarker.setMarker(symNew);
+                        //dumMarker.setRotation(MapUtils.rotateWith(mapMode, movementDirection));
+                        waypointsLayer.addItem(dumMarker);
+                    }else if(i==3){
+                        MarkerItem dumMarker = new MarkerItem(endPos.toString() + i, "", new GeoPoint(45.88163, -74.159912));
+                        var symNew = MapUtils.createMarkerSymbol(this, R.drawable.ic_marker_common_green, false, MarkerSymbol.HotspotPlace.CENTER);
+                        dumMarker.setMarker(symNew);
+                        //dumMarker.setRotation(MapUtils.rotateWith(mapMode, movementDirection));
+                        waypointsLayer.addItem(dumMarker);
+                    }else {
+                        MarkerItem dumMarker = new MarkerItem(endPos.toString() + i, "", new GeoPoint(45.88163, -74.159912));
+                        var symNew = MapUtils.createMarkerSymbol(this, R.drawable.ic_marker_common_green, false, MarkerSymbol.HotspotPlace.CENTER);
+                        dumMarker.setMarker(symNew);
+                        //dumMarker.setRotation(MapUtils.rotateWith(mapMode, movementDirection));
+                        waypointsLayer.addItem(dumMarker);
+
+                    }
+
+                }
+
                 endMarker = new MarkerItem(endPos.toString(), "", endPos);
                 var symbol = MapUtils.createMarkerSymbol(this, R.drawable.ic_compass, false, MarkerSymbol.HotspotPlace.CENTER);
                 endMarker.setMarker(symbol);
                 endMarker.setRotation(MapUtils.rotateWith(mapMode, movementDirection));
                 waypointsLayer.addItem(endMarker);
+
+                waypointsLayer.setOnItemGestureListener(new ItemizedLayer.OnItemGestureListener<MarkerInterface>() {
+                    @Override
+                    public boolean onItemSingleTapUp(int index, MarkerInterface item) {
+
+                        //1,5,0
+                        if(index==2){
+                            AlertDialog.Builder builder = new AlertDialog.Builder(MapsActivity.this);
+                            builder.setTitle("Users at Same location");
+                            builder.setMessage("3 Users are at same Location\n\n" +
+                                    "UserID: 2, UserName: Dummy User 2\n" +
+                                    "UserID: 3, UserName: Dummy User 3\n" +
+                                    "UserID: 4, UserName: Dummy User 4\n");
+
+                            // Open app settings when positive button is clicked
+                            builder.setPositiveButton("Ok", (dialog, which) -> {
+                               dialog.dismiss();
+                            });
+
+                            // Close the app when negative button is clicked
+                            builder.setNegativeButton("Cancel", (dialog, which) -> {
+                                dialog.dismiss();
+                            });
+
+                            builder.show();
+                        }
+
+
+                        return true;
+                    }
+
+                    @Override
+                    public boolean onItemLongPress(int index, MarkerInterface item) {
+                        return false;
+                    }
+                });
+
+
+
             }
         }
     }
